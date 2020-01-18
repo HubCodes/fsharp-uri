@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp-uri", "fsharp-uri\fsharp-uri.fsproj", "{1CD68311-6E09-4A1B-95E9-C3B32730A48B}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharp-uri.test", "fsharp-uri.test\fsharp-uri.test.fsproj", "{4AFC5817-8205-465B-A968-F19F6E7ABF51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1CD68311-6E09-4A1B-95E9-C3B32730A48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD68311-6E09-4A1B-95E9-C3B32730A48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD68311-6E09-4A1B-95E9-C3B32730A48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFC5817-8205-465B-A968-F19F6E7ABF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFC5817-8205-465B-A968-F19F6E7ABF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFC5817-8205-465B-A968-F19F6E7ABF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFC5817-8205-465B-A968-F19F6E7ABF51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
