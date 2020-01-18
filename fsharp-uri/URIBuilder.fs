@@ -38,4 +38,6 @@ module URIBuilder =
 
   let (/@) = setPort
 
+  let (/~) scheme body = URL (scheme, body)
+
   let url ((scheme, body): URL) = scheme.ToString() + "://" + body.ToString()
