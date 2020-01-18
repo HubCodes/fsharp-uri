@@ -7,9 +7,6 @@ type Scheme =
   | HTTPS
   | FTP
   | SFTP
-  | ABOUT
-  | DNS
-  | MAILTO
   | Custom of string
 with
   override this.ToString () =
@@ -18,16 +15,11 @@ with
     | HTTPS -> "https"
     | FTP -> "ftp"
     | SFTP -> "sftp"
-    | ABOUT -> "about"
-    | DNS -> "dns"
-    | MAILTO -> "mailto"
     | Custom s -> s
 
 type URL = Scheme * string
 
-
 module URIBuilder =
-
   let concat ((scheme, left): URL) (right: string) =
     URL (scheme, left + "/" + right)
 
